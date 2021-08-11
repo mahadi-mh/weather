@@ -26,8 +26,5 @@ loginButton.addEventListener("click", function () {
 })
 
 function login() {
-    let loginForm = document.getElementById("login-form");
-    loginForm.style.display = "none";
-
-    homePage.style.display = "block";
+    location.href = "weather.html";
 }

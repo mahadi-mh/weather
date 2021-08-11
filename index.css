@@ -92,10 +92,3 @@ body{
     transform: translateX(-50%);
     margin-bottom: 0;
 }
-
-
-/* Home Page */
-
-.home-page{
-    display: none;
-}
