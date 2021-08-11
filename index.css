@@ -53,8 +53,9 @@ body{
 }
 
 .takeInput::placeholder{
-    color: black;
+    color: rgb(177, 174, 174);
 }
+
 .takeInput:focus{
     border: none;
     outline: 0;
