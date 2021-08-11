@@ -62,15 +62,15 @@ function changeBackground(storeTemp) {
         bgStyle.style.backgroundRepeat = "no-repeat";
         bgStyle.style.backgroundSize = 'cover';
     } else if (storeTemp <= 20) {
-        bgStyle.style.backgroundImage = "url(cold.jpg)";
+        bgStyle.style.backgroundImage = "url(midium.jpg)";
         bgStyle.style.backgroundRepeat = "no-repeat";
         bgStyle.style.backgroundSize = 'cover';
     } else if (storeTemp <= 30) {
-        bgStyle.style.backgroundImage = "url(cold.jpg)";
+        bgStyle.style.backgroundImage = "url(rainy.jpg)";
         bgStyle.style.backgroundRepeat = "no-repeat";
         bgStyle.style.backgroundSize = 'cover';
     } else if (storeTemp > 30) {
-        bgStyle.style.backgroundImage = "url(cold.jpg)";
+        bgStyle.style.backgroundImage = "url(hot.jpg)";
         bgStyle.style.backgroundRepeat = "no-repeat";
         bgStyle.style.backgroundSize = 'cover';
     }
